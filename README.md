@@ -8,7 +8,7 @@ A one-image summary of the world's news of **Tuesday 24 November 2026**, drawn a
 
 ## How it works
 
-`draw_entry.py` (Python + Pillow, deterministic, no network) draws `entry.png` — 1024×1024, ~124 KB — from the day's verified headlines. `main.ts` (Node 22, stdlib only) copies that image to `/output/entry.png`, so both grader runs write identical bytes.
+`draw_entry.py` (Python + Pillow, deterministic, no network) draws `entry.png` — 1024×1024, ~124 KB — from the day's verified headlines. `main.ts` (Node 22, standard library only) copies that image to `/output/entry.png`, so both grader runs write identical bytes.
 
 ## Run it
 
